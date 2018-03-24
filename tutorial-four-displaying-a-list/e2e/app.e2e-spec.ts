@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('tutorial-four-displaying-a-list App', () => {
+describe('tutorial-three-the-hero-editor App', () => {
   let page: AppPage;
 
   beforeEach(() => {
