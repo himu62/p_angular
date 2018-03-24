@@ -7,4 +7,4 @@ build:
 	sudo docker build --tag=$(IMAGE) . 
 
 up:
-	sudo docker run --rm -it --volume $(CURDIR):/work --name=$(CONTAINER) $(IMAGE)
+	sudo docker run --rm -it --volume $(CURDIR):/work -p 4200:4200 --name=$(CONTAINER) $(IMAGE)
